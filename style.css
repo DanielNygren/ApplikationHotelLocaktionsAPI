@@ -1,0 +1,82 @@
+html{
+    background-color:rgb(250, 248, 244);
+    height: 100%;
+    width: 100%;
+}
+body{
+    margin-top: 5em;
+    margin-bottom: 5em;
+    width: 70%;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:rgb(250, 242, 227);
+    padding: 10px;
+    border: 5px dotted #BC986A;
+}
+ header{
+     text-align: center;
+ }
+
+h1{
+    font-size: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #8D8741;
+}
+
+#form-orderBy{
+    text-align: center;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    color: #8D8741;
+}
+
+label{
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer{
+    margin-top: 2em;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+table{
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+tr{
+    color: #BC986A;
+}
+
+a{
+    color:#659DBD;
+}
+
+button{
+    color:#659DBD;
+    background-color: wheat;
+    border-width: 1px;
+}
+
+select{
+    color:#659DBD;
+    background-color: wheat;
+}
+
+p{
+    color: #8D8741;
+    font-style: italic;
+    margin-left: auto;
+    margin-right: auto;
+}

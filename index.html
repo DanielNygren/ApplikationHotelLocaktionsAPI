@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Locate Hotels in youre lokation">
+  <title>Locate Hotel</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Locate Hotels</h1>
+    </header>
+    <main>
+        <form action="" id="form-orderBy">
+            <select type="text" id="orderBy" name="orderBy" value="Name">
+                <option value="name">Name</option>
+                <option value="raiting">Raiting</option>
+                <option value="distance">Distance</option>
+                <option value="lowprice">Lowest Price</option>
+                <option value="highprice">Highest Price</option>
+            </select>
+
+            <label for="orderBy">Order</label>
+            <button type="submit">Finde Hotels</button>
+        </form>
+        <ul id="hotels-list">
+
+        </ul>
+    </main>
+    <footer>
+        <p>Skapad av Daniel och Amanda</p>
+    </footer>
+</body>
